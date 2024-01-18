@@ -1,0 +1,37 @@
+Webull Trading Bot
+Description
+
+This Webull Trading Bot is a Python-based automated trading system designed to operate on the Webull platform. It utilizes technical analysis to make trading decisions, focusing on support and resistance levels to determine buy and sell points.
+Features
+
+    Automated Trading: Executes buy and sell orders based on calculated support and resistance levels.
+    Real-time Data Processing: Streams real-time market data for accurate and timely decision-making.
+    Technical Analysis: Uses the trendln library to calculate key technical indicators.
+    User Customization: Allows users to set their trading symbol, timeframe, and period for analysis.
+
+Installation
+
+    Clone the repository.
+    Install required dependencies: pip install -r requirements.txt.
+    Run the script: python webull_trading_bot.py.
+
+Usage
+
+Upon running the script, you will be prompted to enter:
+
+    The trading symbol (in uppercase).
+    The timeframe for candlestick data (in minutes).
+    The period for support and resistance calculation (in days).
+
+The bot will then start processing real-time data and make trades based on the configured parameters.
+Disclaimer
+
+This Webull Trading Bot is for educational and demonstration purposes only. Financial trading has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them to invest in the financial markets. This bot is not offering any advice, and no representation is being made that any account will or is likely to achieve profits or losses similar to those discussed in this material.
+
+The creator of this Webull Trading Bot shall not be held liable for any direct, indirect, consequential, or incidental damages or losses caused by using this bot. This includes but is not limited to financial loss, trading losses, or any other damages. By using this bot, you agree to assume full responsibility for any and all gains and losses, financial, emotional, or otherwise, experienced, suffered, or incurred.
+License
+
+This project is licensed under the MIT License.
+Contact
+
+For any questions or feedback, feel free to contact me 
