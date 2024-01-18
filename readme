@@ -2,6 +2,19 @@ Webull Trading Bot
 Description
 
 This Webull Trading Bot is a Python-based automated trading system designed to operate on the Webull platform. It utilizes technical analysis to make trading decisions, focusing on support and resistance levels to determine buy and sell points.
+
+Tech Stack
+
+The Webull Trading Bot is built with a range of technologies and libraries:
+
+    Python: The core programming language used for developing the bot.
+    Pandas: Utilized for data manipulation and analysis, particularly for handling financial time series data.
+    Matplotlib: Employed for creating visualizations of the trading strategies, including support and resistance levels.
+    Trendln: A library used for calculating and plotting support and resistance trends in the market data.
+    Paho MQTT: An MQTT client library, which might be used for handling real-time messaging or notifications.
+    NumPy: Used for high-level mathematical functions and multi-dimensional arrays.
+
+These libraries and technologies work together to provide real-time trading capabilities, technical analysis, and the necessary computational efficiency.
 Features
 
     Automated Trading: Executes buy and sell orders based on calculated support and resistance levels.
@@ -24,6 +37,7 @@ Upon running the script, you will be prompted to enter:
     The period for support and resistance calculation (in days).
 
 The bot will then start processing real-time data and make trades based on the configured parameters.
+
 Disclaimer
 
 This Webull Trading Bot is for educational and demonstration purposes only. Financial trading has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them to invest in the financial markets. This bot is not offering any advice, and no representation is being made that any account will or is likely to achieve profits or losses similar to those discussed in this material.
